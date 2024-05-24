@@ -165,7 +165,7 @@ nav ul  :hover {
     top: -10px;
     bottom: -10px;
   }
-
+.r
 #bcorridas{
     display: flex;
     width: 100%;
@@ -189,7 +189,7 @@ nav ul  :hover {
 } 
 .botaoo:hover{
   transform: translateY(-10px);
-  background-color: var(--color--3);
+  background-co.lor: var(--color--3);
   color: var(--color--1);
 }
 .txt{

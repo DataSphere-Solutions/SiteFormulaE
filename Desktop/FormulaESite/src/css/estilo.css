@@ -166,7 +166,6 @@ nav ul  :hover {
   }
 
 #bcorridas{
-    
     display: flex;
     width: 100%;
     height: 600px;
@@ -175,22 +174,24 @@ nav ul  :hover {
     background-color: rgba(0, 0, 0, 0.164) ;
 }
 
-#botão1{  
+.botaoo{  
     width: 400px;
     height: 100px;
     border-radius: 20px;
     background-color: rgb(255, 0, 0);
     cursor: pointer;
-    margin: 20px 100px 100px;
+    margin-left: 100px;
     font-size: 40px;
     font-weight: 600;
     border: none;
 } 
 
-#bcorridas p{
-    margin-left: -100px;
+.txt{
+    margin-left: px;
     color: rgb(0, 0, 0);
-    width: 200px;
+    width: 350px;
+    font-size: 25px;
+    font-weight: 550;
 }
 #carroimg{
   justify-content: right;
@@ -211,23 +212,6 @@ hr{
     align-items: center;
     justify-content: space-between;
 }
-
-#botão2{
-  width: 400px;
-  height: 100px;
-  border-radius: 20px;
-  background-color: rgb(255, 0, 0);
-  cursor: pointer;
-  margin: 20px 100px 100px;
-  
-  font-size: 40px;
-  border: none;
-}
-
-#botão2 :hover{
-    background-color: rgb(185, 236, 0);
-} 
-
 #bpilotos p{
     color: rgb(0, 0, 0);
     width: 200px;

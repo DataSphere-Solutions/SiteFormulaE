@@ -59,3 +59,9 @@ const initSlider = () => {
 }
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
+
+function mudarCor() {
+    const cores = ['#424242', '#FFFFFF', '#424242', '#FFFFFF' , '#424242',];
+    const corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+    document.body.style.backgroundColor = corAleatoria;
+}

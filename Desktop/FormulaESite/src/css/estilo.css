@@ -54,7 +54,9 @@ nav ul  :hover {
 .container {
     max-width: 1200px;
     width: 95%;
-    margin: 30px 9% 7%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   .slider-wrapper {
@@ -224,6 +226,7 @@ nav ul  :hover {
   border-radius: 100px;
   background-color: var(--color--2);
   margin-left: 15px;
+  
 }
 .btn img{
   width: 60px;

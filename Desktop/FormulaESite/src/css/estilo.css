@@ -54,6 +54,7 @@ nav ul  :hover {
 .container {
     max-width: 1200px;
     width: 95%;
+    margin: auto;
   }
 
   .slider-wrapper {

@@ -60,8 +60,11 @@ const initSlider = () => {
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
 
+let isColor1 = true;
+const color1 = '#424242'; // Primeira cor de fundo (vermelho)
+const color2 = '#ffffff'; // Segunda cor de fundo (verde)
+
 function mudarCor() {
-    const cores = ['#424242', '#FFFFFF', '#424242', '#FFFFFF' , '#424242',];
-    const corAleatoria = cores[Math.floor(Math.random() * cores.length)];
-    document.body.style.backgroundColor = corAleatoria;
+    document.body.style.backgroundColor = isColor1 ? color1 : color2;
+    isColor1 = !isColor1;
 }

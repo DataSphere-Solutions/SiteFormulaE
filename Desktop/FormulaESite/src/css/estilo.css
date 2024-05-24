@@ -223,6 +223,7 @@ nav ul  :hover {
   border-radius: 100px;
   background-color: var(--color--2);
   margin-left: 15px;
+  
 }
 .btn img{
   width: 60px;
@@ -230,7 +231,7 @@ nav ul  :hover {
 }
 .btn img:hover{
   width: 70px;
-
+  transition: ;
 }
 footer h4{
    text-align: center;

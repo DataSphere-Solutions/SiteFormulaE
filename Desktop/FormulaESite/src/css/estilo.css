@@ -224,29 +224,23 @@ hr{
   background-color: var(--color--2);
   border: none;
 }
-#bnews{
-  display: flex;
-    width: 100%;
-    height: 518px;
-    align-items: center;
-    justify-content: space-between;
-}
+
 #pilotoimg{
   width: 500px;
-  
 }
 
-#bpalestras{
+#bpalestras
+{
   display: flex;
     width: 100%;
     height: 518px;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.164);
 }
 
 #bpilotos{
-  display: flex;
+    background-color: rgba(0, 0, 0, 0.164);
+    display: flex;
     width: 100%;
     height: 518px;
     align-items: center;
@@ -274,7 +268,23 @@ hr{
 }
 
 footer{
-  background-color: rgba(0, 0, 0, 0.301)
+  background-color: rgba(0, 0, 0, 0.473);
+  align-items: center;
+}
+#logos{
+  
+}
+#m{
+  width: 200px;
+}
+#d{
+  width: 100px;
+  margin-bottom: -20px;
+  margin-left: 30px;
+}
+#f{
+  margin-left: 30px;
+  width: 200px;
 }
 footer h4{
    text-align: center;

@@ -54,9 +54,6 @@ nav ul  :hover {
 .container {
     max-width: 1200px;
     width: 95%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
   }
 
   .slider-wrapper {
@@ -239,7 +236,7 @@ hr{
 }
 .btn img:hover{
   width: 70px;
-
+  
 }
 footer h4{
    text-align: center;

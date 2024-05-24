@@ -58,7 +58,7 @@ nav ul  :hover {
     margin: auto;
     margin-bottom: 70px;
     margin-top: 30px;
-  }
+}
 
   .slider-wrapper {
     position: relative;
@@ -165,14 +165,13 @@ nav ul  :hover {
     top: -10px;
     bottom: -10px;
   }
-.r
 #bcorridas{
-    display: flex;
-    width: 100%;
-    height: 600px;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.164) ;
+  display: flex;
+  width: 100%;
+  height: 518px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.164);
 }
 
 .botaoo{  

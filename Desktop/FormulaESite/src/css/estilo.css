@@ -189,7 +189,7 @@ nav ul  :hover {
 } 
 .botaoo:hover{
   transform: translateY(-10px);
-  background-co.lor: var(--color--3);
+  background-color: var(--color--3);
   color: var(--color--1);
 }
 .txt{

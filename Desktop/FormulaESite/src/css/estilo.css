@@ -212,6 +212,12 @@ nav ul  :hover {
   height: 100px;
   margin-right: 50px;
 }
+#bonecoimg{
+  justify-content: right;
+  width: 300px;
+  height: 400px;
+  margin-right: 70px;
+}
 
 hr{
   padding: 1px;

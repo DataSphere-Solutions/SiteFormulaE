@@ -19,22 +19,28 @@
             </ul>
         </nav>
     </header>
+    
+    <section id="cadastro">
+        <h1 id="login">Cadastro</h1>
+        <div id="divsub">
+            <h2 class="subtextologin">Usuário: user</h2>
+            <h2 class="subtextologin">Senha: 1234</h2>
+        </div>
+            <div class="dados">
+                <label for="user"></label>
+                <input type="text" class="userhtml" placeholder="Usuário">
+                
+                <label for="senha"></label>
+                <input type="password" class="userhtml" placeholder="Senha:">
+            </div>
 
-    <h1>Login</h1>
-    <h2>Usuário: user</h2>
-    <h2>Senha: 1234</h2>
-    <div class="dados">
-        <label for="user">Usuário: </label>
-        <input type="text" id="userhtml">
-        <label for="senha">Senha:</label>
-        <input type="password" id="senhahtml">
-    </div>
-
-    <div class="confirmacao">
-        <button class="entrar" onclick="validar()">Entrar</button>
-    </div>
+            <div class="confirmacao">
+                <button id="entrar" onclick="validar()">Entrar</button>
+            </div>
+    </section>
 
     <footer>
+        <hr>
         <section id="logos">
           <img src="./src/img/mahindra.png" alt="mahindra" id="m">
           <img src="./src/img/Data_Sphere 1.png" alt="data-sphere" id="d">
@@ -43,6 +49,6 @@
         <h4>@2024- Todos direitos reservados à Data Sphere Solutions e Mahindra
       </h4>
       </footer>
-    <script src="./src/js/login.js"></script>
+    <script src="./src/js/cadastro.js"></script>
 </body>
 </html>

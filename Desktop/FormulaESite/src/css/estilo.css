@@ -219,12 +219,6 @@ nav ul  :hover {
   margin-right: 70px;
 }
 
-hr{
-  padding: 1px;
-  background-color: var(--color--2);
-  border: none;
-}
-
 #pilotoimg{
   width: 500px;
 }
@@ -267,22 +261,6 @@ hr{
   transform: translateY(-10px);
 }
 
-#logos{
-  margin-left: 560px;
-}
-#m{
-  width: 100px;
-}
-#d{
-  width: 50px;
-  margin-bottom: -10px;
-  margin-left: 30px;
-}
-#f{
-  margin-left: 30px;
-  width: 100px;
-}
-
 #login{
   text-align: center;
   font-size: 70px;
@@ -304,7 +282,7 @@ hr{
   display: flex;
 }
 
-.userhtml{
+#userhtml{
     padding: 2PX 3PX 2PX 3PX;
     border-radius: 10px;
     background-color: rgba(255, 63, 89, 0);
@@ -317,13 +295,35 @@ hr{
     transition:all 0.3s
     
 }
-.userhtml::placeholder{
+#userhtml::placeholder{
   color: var(--color--3);
 }
-.userhtml:hover{
+#userhtml:hover{
   transform: translateY(-10px);
   background-color: var(--color--3);
   color: var(--color--1);
+}
+
+#senhahtml{
+  padding: 2PX 3PX 2PX 3PX;
+  border-radius: 10px;
+  background-color: rgba(255, 63, 89, 0);
+  border: 10px solid var(--color--3);
+  color: var(--color--3);
+  cursor: pointer;
+  margin-left: 100px;
+  font-size: 40px;
+  font-weight: 600;
+  transition:all 0.3s
+  
+}
+#senhahtml::placeholder{
+color: var(--color--3);
+}
+#senhahtml:hover{
+transform: translateY(-10px);
+background-color: var(--color--3);
+color: var(--color--1);
 }
 .confirmacao {
   margin-top: 40px;
@@ -351,11 +351,32 @@ hr{
   color: var(--color--1);
 }
 
+hr{
+  padding: 1px;
+  background-color: var(--color--2);
+  border: none;
+}
+
 footer{
   background-color: rgba(0, 0, 0, 0.473);
   align-items: center;
 }
 
+#logos{
+  text-align: center ;
+}
+#m{
+  width: 100px;
+}
+#d{
+  width: 50px;
+  margin-bottom: -10px;
+  margin-left: 30px;
+}
+#f{
+  margin-left: 30px;
+  width: 100px;
+}
 footer h4{
   margin-top: 7px;
    text-align: center;

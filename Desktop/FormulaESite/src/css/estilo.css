@@ -343,7 +343,6 @@ color: var(--color--1);
     font-weight: 600;
     transition:all 0.3s;
     margin-bottom: 70px;
-    
 }
 
 #entrar:hover{
@@ -361,6 +360,9 @@ hr{
 footer{
   background-color: rgba(0, 0, 0, 0.473);
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #logos{

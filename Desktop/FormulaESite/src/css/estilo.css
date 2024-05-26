@@ -289,7 +289,7 @@ nav ul  :hover {
     border: 10px solid var(--color--3);
     color: var(--color--3);
     cursor: pointer;
-    margin-left: 100px;
+    margin-right: 75px;
     font-size: 40px;
     font-weight: 600;
     transition:all 0.3s

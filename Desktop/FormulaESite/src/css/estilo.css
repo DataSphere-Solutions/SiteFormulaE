@@ -278,8 +278,9 @@ nav ul  :hover {
   margin-bottom: 100px;
 }
 .dados{
-  text-align: center;
+  justify-content: center;
   display: flex;
+  margin-left: 25px;
 }
 
 #userhtml{
@@ -289,10 +290,11 @@ nav ul  :hover {
     border: 10px solid var(--color--3);
     color: var(--color--3);
     cursor: pointer;
-    margin-right: 75px;
     font-size: 40px;
     font-weight: 600;
-    transition:all 0.3s
+    transition:all 0.3s;
+    margin-right: 70px;
+    width: 40%;
     
 }
 #userhtml::placeholder{
@@ -311,12 +313,13 @@ nav ul  :hover {
   border: 10px solid var(--color--3);
   color: var(--color--3);
   cursor: pointer;
-  margin-left: 200px;
   font-size: 40px;
   font-weight: 600;
-  transition:all 0.3s
-  
+  transition:all 0.3s;
+  margin-left: 100px;
+  width: 40%;
 }
+
 #senhahtml::placeholder{
 color: var(--color--3);
 }
@@ -326,7 +329,7 @@ background-color: var(--color--3);
 color: var(--color--1);
 }
 .confirmacao {
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -358,9 +361,8 @@ hr{
 }
 
 footer{
-  background-color: rgba(0, 0, 0, 0.473);
+  background-color: rgba(0, 0, 0, 0.39);
   align-items: center;
-  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -383,4 +385,12 @@ footer{
 footer h4{
   margin-top: 7px;
   text-align: center;
+}
+
+#footercadastro{
+  background-color: rgba(0, 0, 0, 0.39);
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

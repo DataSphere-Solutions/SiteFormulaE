@@ -70,4 +70,3 @@ function mudarCor() {
     document.body.style.backgroundColor = isColor1 ? color1 : color2;
     isColor1 = !isColor1;
 }
-

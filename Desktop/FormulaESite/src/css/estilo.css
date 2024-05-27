@@ -165,14 +165,6 @@ nav ul  :hover {
     top: -10px;
     bottom: -10px;
   }
-#bcorridas{
-  display: flex;
-  width: 100%;
-  height: 518px;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.164);
-}
 
 .botaoo{  
     padding: 20PX 30PX 20PX 30PX;
@@ -196,16 +188,27 @@ nav ul  :hover {
     width: 350px;
     font-size: 25px;
     font-weight: 550;
+    text-align: center;
+    margin-left: 50px;
 }
 
 .txt2{
-  margin-left: 85px;
+  margin-left: 220px;
   color: var(--color--2);
   width: 350px;
   font-size: 25px;
   font-weight: 550;
+  text-align: center;
 }
 
+.txt3{
+  color: var(--color--2);
+  width: 350px;
+  font-size: 25px;
+  font-weight: 550;
+  text-align: center;
+  margin-left: 154px;
+}
 #carroimg{
   justify-content: right;
   width: 400px;
@@ -221,6 +224,7 @@ nav ul  :hover {
 
 #pilotoimg{
   width: 500px;
+  justify-content: right;
 }
 
 #bpalestras
@@ -230,6 +234,15 @@ nav ul  :hover {
     height: 518px;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+#bcorridas{
+  display: flex;
+  width: 100%;
+  height: 518px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #bpilotos{
@@ -280,7 +293,7 @@ nav ul  :hover {
 .dados{
   justify-content: center;
   display: flex;
-  margin-left: 25px;
+  margin-left: -20px;
 }
 
 #userhtml{
@@ -317,7 +330,7 @@ nav ul  :hover {
   font-weight: 600;
   transition:all 0.3s;
   margin-left: 100px;
-  width: 40%;
+  width: 37%;
 }
 
 #senhahtml::placeholder{
@@ -390,7 +403,7 @@ footer h4{
 #footercadastro{
   background-color: rgba(0, 0, 0, 0.39);
   align-items: center;
-  position: fixed;
+  margin-top: 79px;
   bottom: 0;
   width: 100%;
 }

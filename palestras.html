@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/palestras.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+        <img
+          src="./src/img/Formula-e-logo-championship_2023.svg-removebg-preview.png"
+          alt="logo"
+          id="logo"
+        />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">VOLTAR</a>
+          </li>
+          <li>
+            <a href="./cadastro.html">CADASTRE-SE</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="sect-explica" id="historia">
+      <h2>Historia</h2>
+      <img src="src/img/brasil.png" alt="" id="" />
+      <p>
+        Oferecemos um serviço exclusivo de palestras e workshops nas escolas,
+        onde contamos a fascinante história da Fórmula E. Desde o seu início em
+        2014, esta inovadora categoria de automobilismo elétrico tem se
+        destacado pela sua abordagem sustentável e tecnológica. Nossos
+        especialistas irão apresentar a trajetória da Fórmula E, destacando como
+        ela se tornou um marco na promoção da mobilidade sustentável e nas
+        soluções de energia limpa, inspirando os alunos com exemplos reais de
+        inovação e compromisso ambiental.
+      </p>
+    </section>
+
+    <section class="sect-explica" id="corridas">
+      <h2>Corridas</h2>
+      <img src="src/img/brasil.png" alt="" id="" />
+      <p>
+        Levamos a emoção das pistas diretamente para sua escola com visitas de
+        renomados pilotos da Fórmula E. Estes profissionais de elite, incluindo
+        nomes como Jean-Éric Vergne, Lucas di Grassi e Sébastien Buemi, irão
+        compartilhar suas experiências e histórias de carreira, proporcionando
+        uma oportunidade única de aprendizado e inspiração. Os alunos terão a
+        chance de interagir com os pilotos, aprender sobre o mundo do
+        automobilismo de alta performance e descobrir o que é necessário para se
+        destacar neste campo competitivo.
+      </p>
+    </section>
+
+    <section class="sect-explica" id="pilotos">
+      <h2>Pilotos</h2>
+      <img src="src/img/brasil.png" alt="" />
+      <p>
+        Promovemos empolgantes corridas de carrinhos de controle remoto em
+        escolas, combinando diversão e educação em uma atividade extracurricular
+        envolvente. Nossa equipe organiza eventos onde os alunos podem montar,
+        ajustar e competir com seus próprios carrinhos, aplicando conceitos de
+        física, engenharia e tecnologia. Estas corridas incentivam o trabalho em
+        equipe, a resolução de problemas e a criatividade, criando um ambiente
+        de aprendizado colaborativo e estimulante. Além disso, proporcionam uma
+        excelente oportunidade para os estudantes experimentarem a emoção da
+        competição saudável em um contexto educacional.
+      </p>
+    </section>
+
+    <div class="container">
+      <div class="header">
+        <h2>Registre sua apresentação</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome da escola</label>
+          <input type="text" id="username" placeholder="Digite da escola" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email de contato</label>
+          <input type="text" id="email" placeholder="Digite seu email.." />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">CNPJ</label>
+          <input
+            type="text"
+            id="password"
+            placeholder="Digite o CNPJ da escola"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Dia da apresentação</label>
+          <input
+            type="date"
+            id="password-confirmation"
+            placeholder="Coloque a data da apresentação"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script src="src/js/palestras.js"></script>
+  </body>
+</html>

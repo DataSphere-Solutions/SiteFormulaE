@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 280px;
+  margin-top: 7px;
+  margin-left: 8px;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  font-size: large;
+  margin-top: 25px;
+  gap: 30px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: var(--color--2);
+}
+
+nav ul :hover {
+  font-weight: 800;
+  margin-top: -3px;
+}
+
+.sect-explica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 1200px;
+  height: 520px; /* Altura fixa para todas as seções */
+  margin-bottom: 100px;
+}
+.sect-explica:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#historia {
+  background-color: #f8f8f6;
+}
+#corridas {
+  background-color: #fbfdfc;
+}
+#pilotos {
+  background-color: #e1e8f8;
+}
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+h1 {
+  margin-bottom: 20px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+.container {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 800px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+  }
+  
+  .form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form button {
+    background-color: #1baad6;
+    border: 2px solid #16e2e9;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  
